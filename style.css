@@ -10,9 +10,16 @@ h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-  
 }
 
+span.color-bar {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #5a7483ad, #1928ff);
+}
 #card-deck1 img{
     width: 66px;
     height: 85px;
@@ -57,20 +64,15 @@ h1 {
     text-align: center;
 }
 
-.testimonial h2 {
+h2 {
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
+    padding-bottom: 30px;
 }
-.online-courses h2{
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 38px;
-}
+
 
 .testimonial {
     margin: auto;
@@ -83,7 +85,7 @@ h1 {
 }
 
 .bg2 {
-    background-color: #b1dad7;
+    background-color: #0e37bba8;
     
 }
 
